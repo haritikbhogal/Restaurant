@@ -1,0 +1,99 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #ff8a00, #e52e71); /* Gradient background with vibrant colors */
+    color: #fff;
+}
+
+header {
+    background-color: rgba(26, 26, 26, 0.8);
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.8em;
+    color: #fff; /* White color for the logo text */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 1.5em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+section {
+    padding: 3em;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+section h2 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+input, textarea {
+    margin-bottom: 1em;
+    padding: 0.8em;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #ffcc00;
+    color: #fff;
+    padding: 1em;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1a1a1a;
+}
+
+footer {
+    background-color: rgba(26, 26, 26, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8em;
+}
